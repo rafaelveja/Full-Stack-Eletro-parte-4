@@ -10,34 +10,22 @@ body {
     color: white;
     text-decoration: none;
     padding: 120px;
-  }
+}
 
 .menu {
     background-color: red;
-        color: white;
+    color: white;
     text-decoration: none;
     padding: 10px;
-    }
-
-.títulos_preços td {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
 }
 
-.títulos_preços p {
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;  
-    font-size: small;
-}
-
-#rodapé {
+#rodape {
     text-align: center;
 }
 
 .produtos {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 200px auto; 
 }
 
 .categorias {
@@ -66,6 +54,7 @@ body {
     margin: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 .lojas {
@@ -73,4 +62,16 @@ body {
     height: 200px;
     width: 250px;
     display: inline-block;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mensagem {
+height: 200px;
+width: 500px;
 }
